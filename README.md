@@ -20,12 +20,57 @@ This project is crafted to bridge the gap between theoretical machine learning a
 ```
 git clone https://github.com/LGDiMaggio/CWRU-bearing-fault-classification-ML.git
 ```
+### Set Up Your Environment
 
-### Set up your environment:
-- Ensure Python 3.x is installed and then install the required dependencies:
-```
-pip install -r requirements.txt
-```
+#### Windows
+1. **Create a Virtual Environment**:
+   - Open Command Prompt (or PowerShell).
+   - Navigate to the project directory:
+   ```
+   cd CWRU-bearing-fault-classification-ML
+   ```
+   - Create a virtual environment:
+   ```
+   python -m venv venv
+   ```
+
+2. **Activate the Virtual Environment**:
+   - In Command Prompt:
+   ```
+   venv\Scripts\activate
+   ```
+   - In PowerShell:
+   ```
+   .\venv\Scripts\Activate
+   ```
+
+3. **Install Dependencies**:
+   - Ensure your virtual environment is activated, then install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
+
+#### Linux and macOS
+1. **Create a Virtual Environment**:
+   - Open a terminal and navigate to the project directory:
+   ```
+   cd CWRU-bearing-fault-classification-ML
+   ```
+   - Create a virtual environment:
+   ```
+   python3 -m venv venv
+   ```
+
+2. **Activate the Virtual Environment**:
+   ```
+   source venv/bin/activate
+   ```
+
+3. **Install Dependencies**:
+   - With the virtual environment activated, install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
 
 ### Explore the Notebooks:
 - Navigate through the Jupyter notebooks provided in the repository to understand the workflows and methodologies applied.
