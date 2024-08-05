@@ -19,7 +19,7 @@ def plot_histogram(dataset, feature, hue='Specific Label', bins=30):
     plt.xlabel(feature)
     plt.ylabel('Count')
     plt.tight_layout()
-    plt.show()
+
 
 def plot_violin_plot(dataset, feature, hue='Health State', split_by='Signal Type'):
     """Plot a violin plot for a specified feature based on a categorical variable defined in 'hue'."""
@@ -29,4 +29,4 @@ def plot_violin_plot(dataset, feature, hue='Health State', split_by='Signal Type
     plt.xlabel(hue)
     plt.ylabel(feature)
     plt.tight_layout()
-    plt.show()
+
